@@ -12,9 +12,9 @@ object BasicQuicksort {;import org.scalaide.worksheet.runtime.library.WorksheetS
     } yield x
   };System.out.println("""smallerOrEqual: (pivot: Int, xs: List[Int])List[Int]""");$skip(32); val res$0 = 
   
-  smallerOrEqual(5,unsorted);System.out.println("""res0: List[Int] = """ + $show(res$0));$skip(119); 
+  smallerOrEqual(5,unsorted);System.out.println("""res0: List[Int] = """ + $show(res$0));$skip(117); 
   
-    def larger(pivot:Int,xs:List[Int]):List[Int] =  {
+  def larger(pivot:Int,xs:List[Int]):List[Int] =  {
     for {
       x <- xs
       if(x > pivot)

@@ -14,7 +14,7 @@ object BasicQuicksort {
   
   smallerOrEqual(5,unsorted)                      //> res0: List[Int] = List(4, 3, 2, 1, 0)
   
-    def larger(pivot:Int,xs:List[Int]):List[Int] =  {
+  def larger(pivot:Int,xs:List[Int]):List[Int] =  {
     for {
       x <- xs
       if(x > pivot)

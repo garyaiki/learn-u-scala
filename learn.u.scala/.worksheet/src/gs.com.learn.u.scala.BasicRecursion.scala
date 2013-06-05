@@ -114,18 +114,5 @@ import scala.collection.mutable.ListBuffer;System.out.println("""res0: Int = """
     l.foreach(x => split(x))}
     
 
-/*
-  def quicksort(xs:List[Int]):List[Int] = {
 
-    xs.foreach(_ => split _)
-    xs.foreach{
-      a =>
-      if((a, pivot))
-        smallerOrEqual += a
-      else
-        larger += a
-    }
-
-  }
-*/
 }

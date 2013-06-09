@@ -15,7 +15,7 @@ object BasicRecursion {;import org.scalaide.worksheet.runtime.library.WorksheetS
   val l = List(1,3,7,2);System.out.println("""l  : List[Int] = """ + $show(l ));$skip(12); val res$0 = 
   maxium(l)
 
-import scala.collection.mutable.ListBuffer;System.out.println("""res0: Int = """ + $show(res$0));$skip(381); 
+  import scala.collection.mutable.ListBuffer;System.out.println("""res0: Int = """ + $show(res$0));$skip(383); 
   def replicate(n:Int, times:Int):List[Int] = {
     val listBuf = new ListBuffer[Int]()
     import scala.annotation.tailrec
@@ -111,8 +111,14 @@ import scala.collection.mutable.ListBuffer;System.out.println("""res0: Int = """
     
     };System.out.println("""split: (f: Int)Unit""");$skip(31); 
     l.foreach(x => println(x));$skip(29); 
-    l.foreach(x => split(x))}
+    l.foreach(x => split(x));$skip(202); 
     
-
-
+	def factorial(n : BigInt) = {
+	  @scala.annotation.tailrec
+	  def _factorial(n : BigInt, acc : BigInt ) : BigInt =
+	    if(n == 1) acc else _factorial(n - 1, acc * n )
+	  
+	    _factorial(n,1)
+	};System.out.println("""factorial: (n: BigInt)BigInt""");$skip(15); val res$9 = 
+  factorial(5);System.out.println("""res9: BigInt = """ + $show(res$9))}
 }

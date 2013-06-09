@@ -15,7 +15,7 @@ object BasicRecursion {
   val l = List(1,3,7,2)                           //> l  : List[Int] = List(1, 3, 7, 2)
   maxium(l)                                       //> res0: Int = 7
 
-import scala.collection.mutable.ListBuffer
+  import scala.collection.mutable.ListBuffer
   def replicate(n:Int, times:Int):List[Int] = {
     val listBuf = new ListBuffer[Int]()
     import scala.annotation.tailrec
@@ -116,6 +116,12 @@ import scala.collection.mutable.ListBuffer
                                                   //| 2
     l.foreach(x => split(x))
     
-
-
+	def factorial(n : BigInt) = {
+	  @scala.annotation.tailrec
+	  def _factorial(n : BigInt, acc : BigInt ) : BigInt =
+	    if(n == 1) acc else _factorial(n - 1, acc * n )
+	  
+	    _factorial(n,1)
+	}                                         //> factorial: (n: BigInt)BigInt
+  factorial(5)                                    //> res9: BigInt = 120
 }

@@ -2,6 +2,13 @@ package gs.com.learnUscala.recursion
 
 import scala.collection.mutable.ListBuffer
 
+/**
+ * @author root
+ * 
+ * In real life, quicksort is built in. Scala By Example has much nicer examples 
+ * @see http://www.scala-lang.org/api/current/index.html#scala.math.Ordering
+ *
+ */
 class FirstQuicksort {
   
   def smallerOrEqual(pivot:Int,xs:List[Int]):List[Int] =  {

@@ -12,5 +12,4 @@ class ProductSuite extends Assertions {
     assert(factorial(5) === 120)
   }
   
-
 }

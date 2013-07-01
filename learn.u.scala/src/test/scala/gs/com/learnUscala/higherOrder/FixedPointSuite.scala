@@ -16,23 +16,24 @@
 package gs.com.learnUscala.higherOrder
 import org.scalatest.Assertions
 import org.junit.Test
-import FixedPoint._
+import FixedPoint.sqrt,FixedPoint.cubert,FixedPoint.tolerance
 
 class FixedPointSuite extends Assertions {
-  @Test def SquareRoot16ShouldReturn4() {
-    val root = sqrt(16)
+  @Test def squareRoot16ShouldReturn4() {
+    val num = 16
+    val root = sqrt(num)
     println("sqrt 16 " + root)
     assert(root < 4 + tolerance)
     assert(root > 4 - tolerance)
 
   }
-  
-  @Test def CubeRoot64ShouldReturn4() {
-    val root = cubert(64)
+
+  @Test def cubeRoot64ShouldReturn4() {
+    val num = 64
+    val root = cubert(num)
     println( "root 64 " + root + " floor " + root.floor + " ceil " + root.ceil)
     assert(root < 4 + tolerance)
     assert(root > 4 - tolerance)
   }
-  
 
 }

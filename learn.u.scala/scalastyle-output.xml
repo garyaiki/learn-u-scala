@@ -4,156 +4,56 @@
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"></error>
   <error column="0" line="53" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together "></error>
   <error column="0" line="54" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together "></error>
+  <error column="0" line="55" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together "></error>
   <error column="0" line="56" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together "></error>
-  <error column="0" line="57" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together "></error>
+  <error column="0" line="86" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together "></error>
   <error column="0" line="87" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together "></error>
-  <error column="0" line="88" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together "></error>
  </file>
  <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/test/scala/samples/specs.scala">
-  <error column="0" line="21" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="2" line="25" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="76" line="29" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
   <error column="0" line="19" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
   <error column="0" line="20" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
   <error column="6" line="37" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;Hello world&quot; appears 3 times in the file."></error>
  </file>
  <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/test/scala/gs/com/learnUscala/reflect/KindSuite.scala">
-  <error column="0" line="24" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error line="34" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"></error>
-  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"></error>
-  <error column="0" line="19" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
+  <error column="4" line="30" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
   <error column="4" line="31" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
-  <error column="4" line="32" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
+  <error column="4" line="30" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together "></error>
   <error column="4" line="31" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together "></error>
-  <error column="4" line="32" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together "></error>
  </file>
  <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/main/scala/gs/com/learnUscala/recursion/NewtonsSquareRoot.scala">
-  <error column="0" line="20" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="0" line="29" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="0" line="32" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="0" line="35" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="6" line="39" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"></error>
-  <error column="8" line="38" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error column="6" line="26" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"></error>
-  <error column="8" line="27" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"></error>
   <error column="8" line="30" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"></error>
-  <error column="10" line="31" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"></error>
   <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"></error>
-  <error column="2" line="19" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
   <error column="4" line="36" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together "></error>
  </file>
- <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/main/scala/gs/com/learnUscala/recursion/GenericFunctionalQuicksort.scala">
-  <error column="0" line="23" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="25" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="26" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="27" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="28" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="29" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="30" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="31" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="32" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="33" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="34" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="25" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="3" line="27" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"></error>
-  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"></error>
- </file>
- <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/test/scala/gs/com/learnUscala/recursion/FactorialSuite.scala">
-  <error column="27" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="12" line="24" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"></error>
-  <error column="0" line="20" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
- </file>
  <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/test/scala/gs/com/learnUscala/higherOrder/FixedPointSuite.scala">
-  <error column="0" line="29" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="0" line="36" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="20" line="23" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="22" line="31" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="4" line="24" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"></error>
-  <error column="4" line="32" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"></error>
-  <error column="12" line="22" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error column="12" line="30" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"></error>
-  <error column="0" line="19" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
+  <error column="4" line="25" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"></error>
+  <error column="4" line="34" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"></error>
  </file>
  <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/test/scala/gs/com/learnUscala/recursion/FirstQuicksortSuite.scala">
-  <error column="0" line="25" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="26" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="27" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="28" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"></error>
-  <error column="0" line="23" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="23" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="25" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="27" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="29" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="33" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="35" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="39" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="41" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="33" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="36" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="39" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="42" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="45" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="48" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="51" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="54" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="12" line="24" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"></error>
+  <error column="24" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="26" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="28" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="30" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="34" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="36" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="40" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="42" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="34" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="37" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="40" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="43" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="46" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="49" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="52" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
+  <error column="55" line="26" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
  </file>
  <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/main/scala/gs/com/learnUscala/reflect/Kind.scala">
-  <error column="4" line="20" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity exceeds 10"></error>
-  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"></error>
-  <error column="2" line="21" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
-  <error column="15" line="27" source="org.scalastyle.scalariform.LowercasePatternMatchChecker" severity="warning" message="Lowercase pattern match (surround with ``, or add : Any) "></error>
-  <error column="9" line="42" source="org.scalastyle.scalariform.LowercasePatternMatchChecker" severity="warning" message="Lowercase pattern match (surround with ``, or add : Any) "></error>
-  <error column="9" line="44" source="org.scalastyle.scalariform.LowercasePatternMatchChecker" severity="warning" message="Lowercase pattern match (surround with ``, or add : Any) "></error>
-  <error column="15" line="26" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;*&quot; appears 4 times in the file."></error>
- </file>
- <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/test/scala/gs/com/learnUscala/higherOrder/ProductSuite.scala">
-  <error column="0" line="25" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="0" line="29" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="29" line="23" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="21" line="27" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="12" line="22" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error column="12" line="26" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"></error>
-  <error column="0" line="19" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
+  <error column="6" line="19" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity exceeds 10"></error>
+  <error column="4" line="20" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
+  <error column="17" line="25" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;*&quot; appears 4 times in the file."></error>
  </file>
  <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/main/scala/gs/com/learnUscala/higherOrder/FixedPoint.scala">
   <error column="4" line="24" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together "></error>
- </file>
- <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/test/scala/gs/com/learnUscala/higherOrder/SumSuite.scala">
-  <error column="0" line="26" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="0" line="31" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="19" line="23" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="21" line="23" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="23" line="24" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="25" line="24" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="22" line="28" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="24" line="28" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="27" line="29" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="29" line="29" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="26" line="33" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="28" line="33" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="28" line="34" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="30" line="34" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"></error>
-  <error column="12" line="22" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error column="12" line="27" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error column="12" line="32" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"></error>
-  <error column="0" line="19" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
- </file>
- <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/test/scala/gs/com/learnUscala/classesObjects/RationalSuite.scala">
-  <error column="0" line="22" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="0" line="31" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="0" line="37" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="0" line="43" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="12" line="26" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error column="12" line="32" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error column="12" line="38" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error column="12" line="44" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"></error>
  </file>
  <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/main/scala/gs/com/learnUscala/lists/MiscList.scala">
   <error column="4" line="47" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"></error>
@@ -163,20 +63,8 @@
   <error column="4" line="27" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"></error>
  </file>
  <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/test/scala/samples/junit.scala">
-  <error column="8" line="25" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"></error>
   <error column="0" line="18" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
   <error column="0" line="19" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports "></error>
- </file>
- <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/main/scala/gs/com/learnUscala/recursion/FirstQuicksort.scala">
-  <error column="2" line="22" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="80" line="23" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="0" line="28" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="0" line="35" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="0" line="50" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="0" line="56" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"></error>
-  <error column="8" line="58" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>
-  <error column="6" line="51" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"></error>
-  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"></error>
  </file>
  <file name="/Users/garystruthers/git/learn-u-scala/learn.u.scala/src/main/scala/gs/com/learnUscala/classesObjects/Rational.scala">
   <error column="8" line="29" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"></error>

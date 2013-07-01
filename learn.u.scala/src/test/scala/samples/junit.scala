@@ -22,7 +22,7 @@ import Assert._
 class AppTest {
 
     @Test
-    def testOK() = assertTrue(true)
+    def testOK():Unit = assertTrue(true)
 
 //    @Test
 //    def testKO() = assertTrue(false)

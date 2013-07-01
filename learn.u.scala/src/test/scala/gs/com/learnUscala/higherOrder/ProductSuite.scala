@@ -16,15 +16,17 @@
 package gs.com.learnUscala.higherOrder
 import org.scalatest.Assertions
 import org.junit.Test
-import Product._
+import Product.product,Product.factorial
 
 class ProductSuite extends Assertions {
-  @Test def ProductShouldReturn120() {
-    assert(product(x => x)(1,5) === 120)
+  val a = 1
+  val b = 5
+  @Test def productShouldReturn120() {
+    assert(product(x => x)(a,b) === 120)
   }
-  
-  @Test def FactorialShouldReturn120() {
-    assert(factorial(5) === 120)
+
+  @Test def factorialShouldReturn120() {
+    assert(factorial(b) === 120)
   }
-  
+
 }

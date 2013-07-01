@@ -16,21 +16,23 @@
 package gs.com.learnUscala.higherOrder
 import org.scalatest.Assertions
 import org.junit.Test
-import Sum._
+import Sum.sum,Sum.sumInts,Sum.sumSquares,Sum.sumPowersOfTwo,Sum.powersOfTwo
 
 class SumSuite extends Assertions {
-  @Test def SumIntShouldReturn15() {
-    assert(sumInts(4,6) === 15)
-    assert(sum(x => x)(4,6) === 15)
+  val a = 4
+  val b = 6
+  @Test def sumIntShouldReturn15() {
+    assert(sumInts(a,b) === 15)
+    assert(sum(x => x)(a,b) === 15)
   }
-  
-  @Test def SumSquaresShouldReturn77() {
-    assert(sumSquares(4,6) === 77)
-    assert(sum(x => x * x)(4,6) === 77)
+
+  @Test def sumSquaresShouldReturn77() {
+    assert(sumSquares(a,b) === 77)
+    assert(sum(x => x * x)(a,b) === 77)
   }
-  
-  @Test def SumPowersOfTwoShouldReturn112() {
-    assert(sumPowersOfTwo(4,6) === 112)
-    assert(sum(powersOfTwo)(4,6) === 112)
+
+  @Test def sumPowersOfTwoShouldReturn112() {
+    assert(sumPowersOfTwo(a,b) === 112)
+    assert(sum(powersOfTwo)(a,b) === 112)
   }
 }

@@ -17,12 +17,13 @@ package gs.com.learnUscala.recursion
 
 import org.scalatest.Assertions
 import org.junit.Test
-import Factorial._
+import Factorial.factorial
 
 class FactorialSuite extends Assertions {
 
-  @Test def FactorialShouldReturn120() {
-    val result = factorial(5)
+  @Test def factorialShouldReturn120() {
+    val a = 5
+    val result = factorial(a)
     assert(result === 120)
   }
 }

@@ -13,18 +13,14 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-package gs.com.learnUscala.higherOrder
-import org.scalatest.Assertions
-import org.junit.Test
-import Product._
+package gs.com.learnUscala.recursion
 
-class ProductSuite extends Assertions {
-  @Test def ProductShouldReturn120() {
-    assert(product(x => x)(1,5) === 120)
-  }
-  
-  @Test def FactorialShouldReturn120() {
-    assert(factorial(5) === 120)
-  }
-  
+object Factorial {
+    def factorial(n : BigInt):BigInt = {
+    @scala.annotation.tailrec
+    def factorialAcc(n : BigInt, acc : BigInt ):BigInt =
+      if(n == 1) acc else factorialAcc(n - 1, acc * n )
+
+      factorialAcc(n,1)
+    }
 }

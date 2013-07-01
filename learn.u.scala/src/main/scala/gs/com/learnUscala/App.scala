@@ -13,18 +13,18 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-package gs.com.learnUscala.higherOrder
-import org.scalatest.Assertions
-import org.junit.Test
-import Product._
+package gs.com.learnUscala
 
-class ProductSuite extends Assertions {
-  @Test def ProductShouldReturn120() {
-    assert(product(x => x)(1,5) === 120)
+/**
+ * @author ${user.name}
+ */
+object App {
+
+  def foo(x : Array[String]):String = x.foldLeft("")((a,b) => a + b)
+
+  def main(args : Array[String]) {
+    println( "Hello World!" )
+    println("concat arguments = " + foo(args))
   }
-  
-  @Test def FactorialShouldReturn120() {
-    assert(factorial(5) === 120)
-  }
-  
+
 }

@@ -84,6 +84,11 @@
 			<artifactId>scala-reflect</artifactId>
 			<version>2.10.1</version>
 		</dependency>
+		<dependency>
+			<groupId>com.versal</groupId>
+			<artifactId>fireotter_2.10</artifactId>
+			<version>0.1.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

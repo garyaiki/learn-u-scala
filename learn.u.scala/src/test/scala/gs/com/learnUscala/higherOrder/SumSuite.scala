@@ -16,7 +16,7 @@
 package gs.com.learnUscala.higherOrder
 import org.scalatest.Assertions
 import org.junit.Test
-import Sum.sum,Sum.sumInts,Sum.sumSquares,Sum.sumPowersOfTwo,Sum.powersOfTwo
+import Sum.{sum,sumInts,sumSquares,sumPowersOfTwo,powersOfTwo}
 
 class SumSuite extends Assertions {
   val a = 4

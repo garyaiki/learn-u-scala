@@ -16,7 +16,7 @@
 package gs.com.learnUscala.higherOrder
 import org.scalatest.Assertions
 import org.junit.Test
-import Product.product,Product.factorial
+import Product.{product,factorial}
 
 class ProductSuite extends Assertions {
   val a = 1

@@ -16,7 +16,7 @@
 package gs.com.learnUscala.higherOrder
 import org.scalatest.Assertions
 import org.junit.Test
-import FixedPoint.sqrt,FixedPoint.cubert,FixedPoint.tolerance
+import FixedPoint.{sqrt,cubert,tolerance}
 
 class FixedPointSuite extends Assertions {
   @Test def squareRoot16ShouldReturn4() {
